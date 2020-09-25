@@ -1,17 +1,16 @@
 
 export const CVData = {
     personalData: {
-      name: 'John Doe',
-      title: 'Senior Software Developer',
-      image: 'https://bulma.io/images/placeholders/128x128.png',
+      name: 'Yang Song',
+      title: 'Senior Algorithm Developer',
+      image: 'cv_img_2019.jpg',
       contacts: [
-        { type: 'email', value: 'john@example.com' },
-        { type: 'phone', value: '+00 (123) 456 78 90' },
-        { type: 'location', value: 'New York' },
-        { type: 'website', value: 'example.com' },
-        { type: 'linkedin', value: 'linkedin.com/in/notexists' },
-        { type: 'twitter', value: 'twitter.com/404' },
-        { type: 'github', value: 'github.com/404' }
+        { type: 'email', value: 'ysong.sc@gmail.com' },
+        { type: 'phone', value: '+49 173 7250812' },
+        { type: 'location', value: 'Dusseldorf, Germany' },
+        { type: 'website', value: 'ysonggit.github.io' },
+        { type: 'linkedin', value: 'linkedin.com/in/song24' },
+        { type: 'github', value: 'github.com/ysonggit' }
       ]
     },
     sections: [
