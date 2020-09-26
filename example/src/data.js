@@ -111,7 +111,7 @@ export const CVData = {
             sectionHeader: 'Groupon',
             description: 'Data Pipeline Services',
             items: [
-              { title: '', projectUrl: '', description: '[Ownership] Design and optimize a scalable data aggregation service over Hadoop and Cassandra clusters using Spark and achieved 2x performance improvement.' },
+              { title: '', projectUrl: '', description: '[Ownership] Design and optimize a scalable data aggregation service over Hadoop and Cassandra clusters using Spark to achieve 2x performance improvement.' },
               { title: '', projectUrl: '', description: '[Ownership] Design and implement data integration pipeline on Hadoop using Spark to reduce 50+% cloud job runtime and 80+% cloud storage compared with Hive SQL.'},
               { title: '', projectUrl: '', description: 'Ownership of multiple web services in production environment and experience of the safe deployment and continuous integration testing (CI) procedures'}
             ]
