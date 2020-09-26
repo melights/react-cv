@@ -17,7 +17,7 @@ export const CVData = {
       {
         type: 'text',
         title: 'Career Profile',
-        content: 'When I was child, I always want to be a developer. I think I am now. Culpa proident ad officia minim Lorem sint excepteur irure culpa nisi aliquip nostrud.Laborum voluptate nostrud fugiat occaecat proident veniam excepteur pariatur amet ex sit.Anim aliquip do in commodo adipisicing.Nulla adipisicing nisi enim ullamco sunt veniam.Ullamco labore sunt Lorem veniam id et Lorem magna eiusmod aute. Aliquip minim est consectetur anim mollit aliqua ex elit do et nulla do. Cupidatat ad sunt cillum sint consectetur sunt cillum eiusmod ad esse aliqua. Aute anim elit amet in duis aute ipsum deserunt qui deserunt officia excepteur veniam. Et laboris nostrud est ipsum nulla fugiat deserunt magna velit irure. Ullamco duis ut magna ea tempor enim in ipsum.',
+        content: 'My passion is to build scalable applications with awesome engineering tools, such as web technology, cloud computating, and artificial intelligence, etc. Never get tired of learning new! I believe these technologies are the key factors to boost and scale the business for nowadays and the coming Internet of Things (IoT) era. I grow my software engineering experince by working with awesome people at early stage startup and the publicly listed tech companies in the Internet and Autonomous Driving industries. The most fulfilling thing to me is to see the growth of my career vision along with the growth of the company.',
         icon: 'usertie'
       },
       {
@@ -26,16 +26,22 @@ export const CVData = {
         icon: 'graduation',
         items: [
           {
-            title: 'Computer Engineering (BS)',
-            authority: 'University',
-            authorityWebSite: 'https://sample.edu',
-            rightSide: '2013 - 2017'
+            title: 'Ph.D. Computer Science',
+            authority: 'University of South Carolina',
+            authorityWebSite: 'https://www.sc.edu',
+            rightSide: '2010 - 2015'
           },
           {
-            title: 'Some Department (PHD)',
-            authority: 'Another University',
-            authorityWebSite: 'https://sample.edu',
-            rightSide: '2017 - Present'
+            title: 'M.S. Electrical Engineering',
+            authority: 'University of New Mexico',
+            authorityWebSite: 'https://www.unm.edu',
+            rightSide: '2008 - 2009'
+          },
+          {
+            title: 'B.S. Electrical Engineering',
+            authority: 'China University of Geosciences',
+            authorityWebSite: 'https://www.cug.edu.cn',
+            rightSide: '2003 - 2007'
           }
         ]
       },
@@ -46,70 +52,97 @@ export const CVData = {
         icon: 'archive',
         items: [
           {
-            title: 'Lead Software Developer',
-            company: 'Some Company Example INC',
-            description: 'I\'m working as a lead developer yeeeey!',
-            companyWebSite: 'http://somecompanyexample.com',
-            companyMeta: '',
-            datesBetween: '2017.10 - Present',
-            descriptionTags: ['Javascript', 'React']
+            title: 'Senior Algorithm Developer',
+            company: 'Aptiv',
+            description: 'Develop ML-based motion prediction algorithms for autonomous driving vehicles.',
+            companyWebSite: 'http://www.aptiv.com',
+            companyMeta: 'Wuppertal, Germany',
+            datesBetween: '2019.08 - Present',
+            descriptionTags: ['C++', 'Python']
           },
           {
-            title: 'Software Developer',
-            company: 'Some Company Example INC',
-            description: 'I\'m using ReactJS and working as a front-end developer',
-            companyWebSite: 'http://somecompanyexample.com',
-            companyMeta: 'Little info about company',
-            datesBetween: '2016.8 - 2017.10'
+            title: 'Software Engineer',
+            company: 'Groupon',
+            description: 'Build backend RESTful web services. Construct data pipeline on cloud.',
+            companyWebSite: 'http://www.groupon.com',
+            companyMeta: 'Seattle, WA, USA & Dublin, Ireland',
+            datesBetween: '2016.02 - 2019.05',
+            descriptionTags: ['Java', 'Rails', 'Spark', 'Scala']
           },
           {
-            title: 'Intern',
-            company: 'Some Software Example INC',
-            description: 'I was warming up.',
-            companyWebSite: 'http://someexamplecompany.com',
-            companyMeta: 'SF USA',
-            datesBetween: '2012.06 - 2012.10'
+            title: 'Robotics Engineer (Intern)',
+            company: 'Auro',
+            description: 'Develop motion planning module for the self-driving shuttle.',
+            companyWebSite: 'http://auro.ai',
+            companyMeta: 'Sunnyvale, CA, USA',
+            datesBetween: '2015.05 - 2015.08',
+            descriptionTags: ['C++', 'Python']
           }
         ]
       },
       {
         type: 'projects-list',
         title: 'Projects',
-        description: 'Optional',
+        description: '',
         icon: 'tasks',
         groups: [
           {
-            sectionHeader: 'Company Name',
-            description: 'Optional',
+            sectionHeader: 'Aptiv',
+            description: 'Advanced Engineering',
             items: [
-              { title: 'Project', projectUrl: 'optional', description: 'Optional' },
-              { title: 'Project', projectUrl: 'optional', description: 'Optional' },
-              { title: 'Project', projectUrl: 'optional', description: 'Optional' }
+              { title: 'BMW L3 Sitation Assessment', projectUrl: '', description: 'Optional' },
+              { title: 'PSA Highway Chauffeur', projectUrl: '', description: 'Optional' }
             ]
+          },
+          {
+            sectionHeader: 'Groupon',
+            description: 'Push Marketing',
+            items: [
+              { title: 'CRM System', projectUrl: '', description: 'Optional' },
+              { title: 'Realtime Web Service', projectUrl: '', description: 'Optional' }
+            ]
+          },
+          {
+            sectionHeader: 'Groupon',
+            description: 'Goods',
+            items: [
+              { title: 'Merchandise Platform Development', projectUrl: '', description: 'Optional' }            ]
+          },
+          {
+            sectionHeader: 'Auro AI',
+            description: '',
+            items: [
+              { title: 'Motion Planning Design & Test', projectUrl: '', description: 'Optional' }            ]
           }
         ]
       },
       {
+        type: 'tag-list',
+        title: 'Development Tools',
+        icon: 'rocket',
+        items: ['C++', 'Python', 'Java', 'Scala', 'Javascript', 'SQL', 'Golang', 'Git', 'Jenkins', 'Docker', 'Kubernetes', 'DotCI', 'CircleCI', 'Splunk', 'AWS', 'GCP', 'On-premises']
+      },
+      {
+        type: 'tag-list',
+        title: 'Frameworks & Databases',
+        icon: 'cubes',
+        items: ['Hadoop', 'Spark', 'ROS', 'Java Play', 'EmberJS', 'Rails', 'MySQL', 'Cassandra', 'Redis']
+      },
+      {
         type: 'common-list',
-        title: 'Conferences & Certificates',
+        title: 'Certificates',
         description: '',
-        icon: 'comments',
+        icon: 'book',
         items: [
           {
-            title: 'Some Conferences / 2019',
-            authority: 'SomeConf',
-            authorityWebSite: 'https://www.someconf.somesome'
+            title: 'Self-Driving Car Engineer Nanodegree',
+            authority: 'Udacity',
+            authorityWebSite: 'https://confirm.udacity.com/KRNP7Q2R'
           },
           {
-            title: 'Some Conferences / 2019',
-            authority: 'SomeConf',
-            authorityMeta: 'Speaker',
-            authorityWebSite: 'https://www.someconf.somesome',
-            rightSide: 'test'
-          },
-          {
-            title: 'Some Conferences / 2012',
-            authorityMeta: 'Speaker'
+            title: 'Deep Learning Specialization',
+            authority: 'Coursera - Deeplearning.ai',
+            authorityWebSite: 'https://www.coursera.org/account/accomplishments/specialization/certificate/B72MXW7QHYAP',
           }
         ]
       },
@@ -123,22 +156,10 @@ export const CVData = {
             authorityMeta: 'Professional'
           },
           {
-            authority: 'Spanish',
-            authorityMeta: 'Beginner'
+            authority: 'German',
+            authorityMeta: 'A2'
           }
         ]
-      },
-      {
-        type: 'tag-list',
-        title: 'Skills Proficiency',
-        icon: 'rocket',
-        items: ['React', 'Javascript', 'CSS', 'SQL', 'SomeTech', 'CoolTech']
-      },
-      {
-        type: 'tag-list',
-        title: 'Hobbies & Interests',
-        icon: 'cubes',
-        items: ['Photography', 'Poetry']
       }
     ]
   }
