@@ -29,6 +29,14 @@ You can easily integrate it to your existing apps, if you don't want to build an
 `npm install react-cv` or `yarn add react-cv`
 
 
+## Local Server
+
+`npm start`
+
+## Deploy 
+
+`npm run deploy`
+
 ## Basic Usage
 
 ```jsx
