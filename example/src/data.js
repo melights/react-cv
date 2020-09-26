@@ -17,7 +17,7 @@ export const CVData = {
       {
         type: 'text',
         title: 'Career Profile',
-        content: 'My passion is to build scalable applications with awesome engineering tools, such as web technology, cloud computing, and artificial intelligence, etc. Never get tired of learning new! I believe these technologies are the key factors to boost and scale the business for nowadays and the coming Internet of Things (IoT) era. I grow my software engineering experince by working with awesome people at early stage startup and the publicly listed tech companies in the Internet and Autonomous Driving industries. The most fulfilling thing to me is to see the growth of my career vision along with the growth of the company.',
+        content: 'My passion is to build scalable applications with awesome engineering tools, such as web technology, cloud computing, and artificial intelligence, etc. Never get tired of learning new! I believe these technologies are the key factors to boost and scale the business for nowadays and the coming Internet of Things (IoT) era. I grow my software engineering experience by working with awesome people at early stage startup and the publicly listed tech companies in the Internet and Autonomous Driving industries. The most fulfilling thing to me is to see the growth of my career vision along with the growth of the company.',
         icon: 'usertie'
       },
       {
@@ -57,8 +57,7 @@ export const CVData = {
             description: 'Develop ML-based motion prediction algorithms for autonomous driving vehicles.',
             companyWebSite: 'http://www.aptiv.com',
             companyMeta: 'Wuppertal, Germany',
-            datesBetween: '2019.08 - Present',
-            descriptionTags: ['C++', 'Python']
+            datesBetween: '2019.08 - Present'
           },
           {
             title: 'Software Engineer',
@@ -66,17 +65,15 @@ export const CVData = {
             description: 'Build backend RESTful web services. Construct data pipeline on cloud.',
             companyWebSite: 'http://www.groupon.com',
             companyMeta: 'Seattle, WA, USA & Dublin, Ireland',
-            datesBetween: '2016.02 - 2019.05',
-            descriptionTags: ['Java', 'Rails', 'Spark', 'Scala']
+            datesBetween: '2016.02 - 2019.05'
           },
           {
             title: 'Robotics Engineer (Intern)',
-            company: 'Auro',
-            description: 'Develop motion planning module for the Autopilot software of the self-driving shuttle.',
+            company: 'Auro AI',
+            description: 'Build a self-driving shuttle from scratch with 3 co-founders and 4 engineers in three months (seed round investment: $120K)',
             companyWebSite: 'http://auro.ai',
             companyMeta: 'Sunnyvale, CA, USA',
-            datesBetween: '2015.05 - 2015.08',
-            descriptionTags: ['C++', 'Python']
+            datesBetween: '2015.05 - 2015.08'
           }
         ]
       },
@@ -88,31 +85,53 @@ export const CVData = {
         groups: [
           {
             sectionHeader: 'Aptiv',
-            description: 'Advanced Engineering',
+            description: 'BMW L3 Highway Pilot',
             items: [
-              { title: 'BMW L3 Sitation Assessment', projectUrl: '', description: 'Optional' },
-              { title: 'PSA Highway Chauffeur', projectUrl: '', description: 'Optional' }
+              { title: '', projectUrl: '', description: 'Design and implement an end-to-end workflow to generate metrics and KPI for the situation assessment module of BMW L3 highway pilot (Python).' },
+              { title: '', projectUrl: '', description: 'Cooperate with the stakeholders to improve the Object-Oriented Design (OOD) of the error handling interface (UML, C++14) of the system, and implement unit tests (Gtest).' }
+            ]
+          },
+          {
+            sectionHeader: 'Aptiv',
+            description: 'PSA Highway Chauffeur Autopilot',
+            items: [
+              { title: '', projectUrl: '', description: '[Ownership] Lead the ML-based lane change prediction algorithms design for highway autopilot, implement the module with C++14 (ROS) and achieve accuracy over 93+%' }
             ]
           },
           {
             sectionHeader: 'Groupon',
-            description: 'Push Marketing',
+            description: 'CRM Back-End Web Service',
             items: [
-              { title: 'CRM System', projectUrl: '', description: 'Optional' },
-              { title: 'Realtime Web Service', projectUrl: '', description: 'Optional' }
+              { title: '', projectUrl: '', description: 'Develop features for a core RESTful back-end web service using Java Play framework to send email campaigns and mobile notifications to over 6MM global customers daily.' },
+              { title: '', projectUrl: '', description: 'Migrate and upgrade the back-end tech stack from Hive to Spark and achieve 10x performance boost on top of the on-premises cloud architecture, by collaborating with the Data Systems team.'},
+              { title: '', projectUrl: '', description: 'Contribute to the system logging with Log4j and implement a comprehensive dashboard of system metrics using Splunk accordingly.'},
+              ]
+          },
+          {
+            sectionHeader: 'Groupon',
+            description: 'Data Pipeline Services',
+            items: [
+              { title: '', projectUrl: '', description: '[Ownership] Design and optimize a scalable data aggregation service over Hadoop and Cassandra clusters using Spark and achieved 2x performance improvement.' },
+              { title: '', projectUrl: '', description: '[Ownership] Design and implement data integration pipeline on Hadoop using Spark to reduce 50+% cloud job runtime and 80+% cloud storage compared with Hive SQL.'},
+              { title: '', projectUrl: '', description: 'Ownership of multiple web services in production environment and experience of the safe deployment and continuous integration testing (CI) procedures'}
             ]
           },
           {
             sectionHeader: 'Groupon',
-            description: 'Goods',
+            description: 'Merchandise Platform Development',
             items: [
-              { title: 'Merchandise Platform Development', projectUrl: '', description: 'Optional' }            ]
+              { title: '', projectUrl: '', description: 'Develop RESTful back-end API (CRUD) on Rails to interact with front-end UI (EmberJS) for the EMEA merchandise platform.' },        
+              { title: '', projectUrl: '', description: 'Implement unit and integration tests with RSpec to improve system robustness (code coverage 70+% --> 80+%).' }            
+            ]
           },
           {
             sectionHeader: 'Auro AI',
-            description: '',
+            description: 'Motion Planning Design & Test',
             items: [
-              { title: 'Motion Planning Design & Test', projectUrl: '', description: 'Optional' }            ]
+              { title: '', projectUrl: '', description: '[Ownership] Develop the motion planning module of the autopilot using C++. Implement waypoint-following path planner using Map & GPS and RRT* path planner using LiDAR.' },           
+              { title: '', projectUrl: '', description: 'Performance analysis of different planning algorithms (A*, RRT*) via simulations and autopilot road tests. ' },           
+              { title: '', projectUrl: '', description: 'Teamwork demonstration on YC Demo Day Summer 2015 & received $2.1M investments afterward.' }            
+            ]
           }
         ]
       },
@@ -120,7 +139,7 @@ export const CVData = {
         type: 'tag-list',
         title: 'Development Tools',
         icon: 'rocket',
-        items: ['C++', 'Python', 'Java', 'Scala', 'Javascript', 'SQL', 'Golang', 'Git', 'Jenkins', 'Docker', 'Kubernetes', 'DotCI', 'CircleCI', 'Splunk', 'AWS', 'GCP', 'On-premises']
+        items: ['C++', 'Python', 'Java', 'Scala', 'Maven', 'CMake', 'Capistrano', 'Javascript', 'SQL', 'Go', 'Git', 'Gtest', 'RSpec', 'Jenkins', 'Docker', 'Kubernetes', 'DotCI', 'Splunk', 'AWS', 'GCP']
       },
       {
         type: 'tag-list',
