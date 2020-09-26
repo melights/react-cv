@@ -17,7 +17,7 @@ export const CVData = {
       {
         type: 'text',
         title: 'Career Profile',
-        content: 'My passion is to build scalable applications with awesome engineering tools, such as web technology, cloud computating, and artificial intelligence, etc. Never get tired of learning new! I believe these technologies are the key factors to boost and scale the business for nowadays and the coming Internet of Things (IoT) era. I grow my software engineering experince by working with awesome people at early stage startup and the publicly listed tech companies in the Internet and Autonomous Driving industries. The most fulfilling thing to me is to see the growth of my career vision along with the growth of the company.',
+        content: 'My passion is to build scalable applications with awesome engineering tools, such as web technology, cloud computing, and artificial intelligence, etc. Never get tired of learning new! I believe these technologies are the key factors to boost and scale the business for nowadays and the coming Internet of Things (IoT) era. I grow my software engineering experince by working with awesome people at early stage startup and the publicly listed tech companies in the Internet and Autonomous Driving industries. The most fulfilling thing to me is to see the growth of my career vision along with the growth of the company.',
         icon: 'usertie'
       },
       {
@@ -72,7 +72,7 @@ export const CVData = {
           {
             title: 'Robotics Engineer (Intern)',
             company: 'Auro',
-            description: 'Develop motion planning module for the self-driving shuttle.',
+            description: 'Develop motion planning module for the Autopilot software of the self-driving shuttle.',
             companyWebSite: 'http://auro.ai',
             companyMeta: 'Sunnyvale, CA, USA',
             datesBetween: '2015.05 - 2015.08',
