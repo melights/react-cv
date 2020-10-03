@@ -102,7 +102,7 @@ export const CVData = {
             sectionHeader: 'Groupon',
             description: 'CRM Back-End Web Service',
             items: [
-              { title: '', projectUrl: '', description: 'Develop features for a core RESTful back-end web service using Java Play framework to send email campaigns and mobile notifica-tions to over 6MM global customers daily for customer engagement and A/B testing' },
+              { title: '', projectUrl: '', description: 'Develop features for a core REST back-end web service using Java Play framework to send email campaigns and mobile notifications to over 6MM global users daily for customer engagement and A/B testing.' },
               { title: '', projectUrl: '', description: 'Migrate and upgrade the back-end tech stack from Hive to Spark and achieve 10x performance boost on top of the on-premises cloud architecture, by collaborating with the Data Systems team.'},
               { title: '', projectUrl: '', description: 'Contribute to the system logging with Log4j and implement a comprehensive dashboard of system metrics using Splunk accordingly.'},
               ]
