@@ -17,7 +17,7 @@ export const CVData = {
       {
         type: 'text',
         title: 'Career Profile',
-        content: 'My passion is to build scalable applications with awesome engineering tools, such as web technology, cloud computing, and artificial intelligence, etc. Never get tired of learning new! I believe these technologies are the key factors to boost and scale the business for nowadays and the coming Internet of Things (IoT) era. I grow my software engineering experience by working with awesome people at early stage startup and the publicly listed tech companies in the Internet and Autonomous Driving industries. The most fulfilling thing to me is to see the growth of my career vision along with the growth of the company.',
+        content: 'My passion is to build scalable applications with fine platform and tools, such as web technology, cloud computing, and artificial intelligence, etc. Never get tired of learning new! I believe these technologies are the key factors to boost and scale the business for nowadays and the coming Internet of Things (IoT) era. My sense of accomplishment comes from the growth of the team, as well as my career by working with awesome people!',
         icon: 'usertie'
       },
       {
@@ -102,7 +102,7 @@ export const CVData = {
             sectionHeader: 'Groupon',
             description: 'CRM Back-End Web Service',
             items: [
-              { title: '', projectUrl: '', description: 'Develop features for a core RESTful back-end web service using Java Play framework to send email campaigns and mobile notifications to over 6MM global customers daily.' },
+              { title: '', projectUrl: '', description: 'Develop features for a core RESTful back-end web service using Java Play framework to send email campaigns and mobile notifica-tions to over 6MM global customers daily for customer engagement and A/B testing' },
               { title: '', projectUrl: '', description: 'Migrate and upgrade the back-end tech stack from Hive to Spark and achieve 10x performance boost on top of the on-premises cloud architecture, by collaborating with the Data Systems team.'},
               { title: '', projectUrl: '', description: 'Contribute to the system logging with Log4j and implement a comprehensive dashboard of system metrics using Splunk accordingly.'},
               ]
@@ -112,7 +112,7 @@ export const CVData = {
             description: 'Data Pipeline Services',
             items: [
               { title: '', projectUrl: '', description: '[Ownership] Design and optimize a scalable data aggregation service over Hadoop and Cassandra clusters using Spark to achieve 2x performance improvement.' },
-              { title: '', projectUrl: '', description: '[Ownership] Design and implement data integration pipeline on Hadoop using Spark to reduce 50+% cloud job runtime and 80+% cloud storage compared with Hive SQL.'},
+              { title: '', projectUrl: '', description: '[Ownership] Design and implement data integration pipeline for recommendation systems using Spark to reduce 50+% cloud job runtime and 80+% cloud storage compared with Hive SQL.'},
               { title: '', projectUrl: '', description: 'Ownership of multiple web services in production environment and experience of the safe deployment and continuous integration testing (CI) procedures'}
             ]
           },
