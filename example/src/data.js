@@ -179,6 +179,21 @@ export const CVData = {
             authorityMeta: 'A2'
           }
         ]
+      },
+      {
+        type: 'common-list',
+        title: 'Extra-Curricular Activities',
+        icon: 'cubes',
+        items: [
+          {
+            authority: 'Born Free Foundation Supporter',
+            authorityWebSite: 'https://bornfree.org.uk/'
+          },
+          {
+            authority: 'Four Paws Org Supporter',
+            authorityWebSite: 'https://www.vier-pfoten.de/'
+          }
+        ]
       }
     ]
   }
