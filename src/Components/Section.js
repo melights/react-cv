@@ -4,7 +4,7 @@ import mergeClassNames from 'classnames';
 import BulmaCSS from 'bulma/css/bulma.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Styles from '../styles.css';
-import { faBook, faGraduationCap, faArchive, faRocket, faTasks, faComment, faLanguage, faCubes, faExclamation, faUserTie } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faGraduationCap, faArchive, faRocket, faTasks, faComment, faLanguage, faCubes, faExclamation, faUserTie, faPaw, faPlusSquare, faDatabase } from '@fortawesome/free-solid-svg-icons'
 
 const predefinedIcons = {
   graduation: faGraduationCap,
@@ -15,7 +15,9 @@ const predefinedIcons = {
   rocket: faRocket,
   language: faLanguage,
   cubes: faCubes,
-  usertie: faUserTie
+  usertie: faUserTie,
+  paw: faPaw,
+  database: faDatabase
 }
 export default class Section extends React.Component {
   static propTypes = {

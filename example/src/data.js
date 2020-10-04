@@ -144,7 +144,7 @@ export const CVData = {
       {
         type: 'tag-list',
         title: 'Frameworks & Databases',
-        icon: 'cubes',
+        icon: 'database',
         items: ['Hadoop', 'Spark', 'ROS', 'Java Play', 'EmberJS', 'Rails', 'MySQL', 'Cassandra', 'Redis']
       },
       {
@@ -183,7 +183,7 @@ export const CVData = {
       {
         type: 'common-list',
         title: 'Extra-Curricular Activities',
-        icon: 'cubes',
+        icon: 'paw',
         items: [
           {
             authority: 'Born Free Foundation Supporter',
